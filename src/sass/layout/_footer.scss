@@ -7,7 +7,7 @@
 /* Footer */
 
 	#footer {
-		@include banner-bg('../../images/banner.jpg');
+		@include banner-bg('../../images/church.jpg');
 		@include color-typography(accent4);
 		@include color-button(accent4);
 		@include color-section(accent4);

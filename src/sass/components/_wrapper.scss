@@ -32,7 +32,7 @@
 		}
 
 		&.cta {
-			@include banner-bg('../../images/cta.jpg', true);
+			@include banner-bg('../../images/kids.jpg', true);
 			@include color-typography(accent4);
 			@include color-button(accent4);
 
