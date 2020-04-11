@@ -83,7 +83,7 @@
 
 		@include breakpoint('<=small') {
 			@include orientation(landscape) {
-				height: 25em;
+				height: 35em;
 			}
 
 			@include orientation(portrait) {
