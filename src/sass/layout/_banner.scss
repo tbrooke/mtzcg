@@ -10,7 +10,7 @@
 		@include banner-bg('../../images/church.jpg');
 		position: relative;
 		min-height: 70vh;
-		height: 35em;
+		height: 40em;
 
 		.content {
 			position: absolute;
@@ -19,7 +19,7 @@
 			@include color-typography(accent4);
 			@include color-button(accent4);
 			@include color-section(accent4);
-			@include padding(6.5em, 0);
+			@include padding(0.5em, 0);
 			width: 100%;
 
 			> .inner {
@@ -47,7 +47,7 @@
 			min-height: 0;
 
 			.content {
-				@include padding(4em, 3em);
+				@include padding(0em, 0em);
 
 				> .inner {
 					width: _size(inner-width, large);
@@ -57,7 +57,7 @@
 
 		@include breakpoint('<=medium') {
 			@include orientation(landscape) {
-				height: 30em;
+				height: 50em;
 			}
 
 			@include orientation(portrait) {
@@ -83,11 +83,11 @@
 
 		@include breakpoint('<=small') {
 			@include orientation(landscape) {
-				height: 35em;
+				height: 20em;
 			}
 
 			@include orientation(portrait) {
-				height: 30em;
+				height: 20em;
 			}
 
 			.content {
