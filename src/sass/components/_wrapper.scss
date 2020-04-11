@@ -33,8 +33,8 @@
 
 		&.cta {
 			@include banner-bg('../../images/kids.jpg', true);
-			@include color-typography(accent4);
-			@include color-button(accent4);
+			@include color-typography(accent3);
+			@include color-button(accent3);
 
 			> .inner {
 				@include vendor('display', 'flex');
